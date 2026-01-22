@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (!parameter) return;
 
-    window.location.href = `/buscador.html?q=${encodeURIComponent(parameter)}`;
+    window.location.href = `/buscador?q=${encodeURIComponent(parameter)}`;
   });
 
 });
